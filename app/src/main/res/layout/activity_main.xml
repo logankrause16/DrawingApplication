@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/colorText"
+        android:layout_width="353dp"
+        android:layout_height="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/changeColor"
+        android:layout_width="158dp"
+        android:layout_height="76dp"
+        android:layout_alignStart="@+id/colorText"
+        android:layout_alignTop="@+id/drawPageBtn"
+        android:text="Change Color"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/colorDetails"
+        android:layout_width="354dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="Color: "
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/drawPageBtn"
+        android:layout_width="177dp"
+        android:layout_height="77dp"
+        android:layout_alignEnd="@+id/colorText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="185dp"
+        android:text="Draw Page" />
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SeekBar
+        android:id="@+id/redValue"
+        android:layout_width="299dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:max="255"
+        android:min="1"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <SeekBar
+        android:id="@+id/blueValue"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="303dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/previewColor"
+        android:layout_centerHorizontal="true"
+        android:max="255"
+        android:min="1"
+        android:progress="3"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <SeekBar
+        android:id="@+id/greenValue"
+        android:layout_width="296dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="216dp"
+        android:max="255"
+        android:min="1"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/redTxt"
+        android:layout_width="294dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Red:"
+        android:textSize="40px"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/previewColor"
+        android:layout_width="307dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp" />
+
+    <TextView
+        android:id="@+id/blueTxt"
+        android:layout_width="305dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="209dp"
+        android:text="Blue:"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/greenTxt"
+        android:layout_width="292dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/redValue"
+        android:layout_marginTop="156dp"
+        android:textSize="40px"
+        android:text="Green:" />
+
+    <Button
+        android:id="@+id/saveColorBtn"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/blueValue"
+        android:layout_marginBottom="16dp"
+        android:onClick="SaveColor"
+        android:text="Save" />
+
+</RelativeLayout>

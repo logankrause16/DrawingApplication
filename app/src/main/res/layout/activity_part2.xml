@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_part2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.logankrause.homework1.Main2Activity">
+
+    <com.byox.drawview.views.DrawView
+        android:id="@+id/drawViewer"
+        android:layout_width="356dp"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/pageChangeBtn"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valueTestTxt"
+        android:layout_marginTop="-117dp"
+        android:onClick="homePage"
+        android:text="Home Page"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/colorPickerBtn"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/pageChangeBtn"
+        android:layout_marginEnd="11dp"
+        android:onClick="pickColor"
+        android:text="Pick Color" />
+
+    <TextView
+        android:id="@+id/valueTestTxt"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pageChangeBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:onClick="resetImage"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/colorPickerBtn"
+        android:layout_alignTop="@+id/resetBtn"
+        android:onClick="saveImage"
+        android:text="Save" />
+</RelativeLayout>

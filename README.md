@@ -6,8 +6,13 @@ Takes user inputted values, and when a button is pressed changes the color of th
 
 It also gives the user a DrawView (supplied by Byox on <a href="https://github.com/ByoxCode/DrawView">this</a> link) and gives the user options to choose a custom color and draw in that color.
 
-# Usage Information
+# Functionality Information
 This is an Android Application running on Android Studio written in Java. This application only runs on Android devices and is written with Android 6.0 (Marshamllow) in mind.
+
+Page 1: 
+![FirstPage][firstimage]
+
+[firstimage]: C:\Users\Logan Krause\Desktop\firstpage.png
 
 # Getting Started
 
@@ -25,5 +30,4 @@ Add this to your gradle.settings file in your Android Studio Project.
 Logan Krause - Wright State University Student.
 
 # Acknowledgments 
-
 ByoxCode - DrawView <a href="https://github.com/ByoxCode/DrawView">Source</a>

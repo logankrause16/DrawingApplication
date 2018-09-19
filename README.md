@@ -9,24 +9,24 @@ It also gives the user a DrawView (supplied by Byox on <a href="https://github.c
 # Functionality Information
 This is an Android Application running on Android Studio written in Java. This application only runs on Android devices and is written with Android 6.0 (Marshamllow) in mind.
 
-<h4>Home Page</h4>:<br> 
-<img src="Screenshots/Screenshot_20180918-172303.png" width="200px">
+<h4>Home Page:</h4><br> 
+<img src="https://github.com/logankrause16/DrawingApplication/tree/master/Screenshots/Screenshot_20180918-172303.png" width="200px">
 
 The text field takes user input and when the "Change Color" button is pressed changes the Text Color of the input. Note that more specific information about the random color is displayed right below, showing the individual RGB values as well as the Hexidecimal value of the color.
 
 <h4>Drawing:</h4><br>
-<img src="Screenshots/Screenshot_20180918-192032.png" width="200px">
+<img src="https://github.com/logankrause16/DrawingApplication/tree/master/Screenshots/Screenshot_20180918-192032.png" width="200px">
 
 All of the whitespace is available to draw on. Below are the buttons that allow you to navigate back to the home page (Home Page), clearing the drawing field (Reset), saving the work you have done to your device (Save) and finally picking a color that you can draw with through the Color Picker Page.
 <br>
 
 <h4>Color Picker Page:</h4>
 <br>
-<img src="Screenshots/Screenshot_20180918-192050.png" width="200px">
+<img src="https://github.com/logankrause16/DrawingApplication/tree/master/Screenshots/Screenshot_20180918-192050.png" width="200px">
 <br>
 The Red, Green and Blue SeekBars will allow you to create your own color, and give you a preview of the color below. By pressing the "Save" button, the color will be saved and redirect you to the draw page and future drawing will be done in your selected color.
 <br>
-<img src="Screenshots/Screenshot_20180918-192102.png" width="200px">
+<img src="https://github.com/logankrause16/DrawingApplication/tree/master/Screenshots/Screenshot_20180918-192102.png" width="200px">
 
 
 # Getting Started
